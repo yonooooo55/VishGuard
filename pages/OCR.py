@@ -3,7 +3,7 @@ from PIL import Image
 import pytesseract
 
 # Set Tesseract path if needed (only necessary if Tesseract is not in PATH)
-pytesseract.pytesseract.tesseract_cmd = r'D:\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'D:\Tesseract-OCR\tesseract.exe'
 
 def ocr_image(image):
     text = pytesseract.image_to_string(image)

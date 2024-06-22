@@ -45,6 +45,6 @@ urllib3==2.2.1
 watchdog==4.0.1
 scikit-learn
 nltk==3.8.1
-pytesseract
-PIL
+pytesseract == 0.3.10
+Pillow == 10.3.0
 
