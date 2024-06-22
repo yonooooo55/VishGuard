@@ -27,4 +27,4 @@ def loading():
         bar.progress(i + 1)
         time.sleep(0.03)
 
-    st.header(''':rainbow[Zi heng is gay] .''')
+    st.header(''':rainbow[Loading Successful...] .''')
